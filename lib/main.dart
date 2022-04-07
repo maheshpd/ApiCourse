@@ -1,3 +1,4 @@
+import 'package:apicourse/example_three.dart';
 import 'package:apicourse/example_two.dart';
 import 'package:apicourse/home_screen.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ExampleTwo(),
+      home: ExampleThree(),
       debugShowCheckedModeBanner: false,
     );
   }
