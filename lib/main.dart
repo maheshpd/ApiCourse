@@ -1,4 +1,6 @@
 import 'package:apicourse/ExampleFour.dart';
+import 'package:apicourse/LastExampleScreen.dart';
+import 'package:apicourse/SignUpScreen.dart';
 import 'package:apicourse/example_three.dart';
 import 'package:apicourse/example_two.dart';
 import 'package:apicourse/home_screen.dart';
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ExampleFour(),
+      home: SignUpScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
